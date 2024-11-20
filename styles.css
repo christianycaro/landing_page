@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 8px;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #F9FAF8; 
+  font-weight: bold; 
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 8px;
+}
+
+.introbox {
+    display: flex;
+    background-color: #1F2937;
+    padding: 24px;
+    gap: 8px;
+}
+
+.signup h1 {
+    font-size: 48px;
+    color: #E5E7EB;
+    font-weight: 900;
+}
+
+.signup p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup button {
+   padding: 8px;
+   background-color: #3882F6; 
+   color: #E5E7EB;
+   border-radius: 10px; 
+}
+
+.image {
+    height: 200px;
+    width: 500px;
+}
+.infobox h1 {
+    text-align: center;
+}
+.infobox ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu .menutext {
+    text-align: center;
+}
+
+.imagebox {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.quotebox {
+    background-color: #E5E7EB;
+    padding: 32px;
+}
+
+.quotebox p {
+   font-size: 36px;
+   color: #1F2937; 
+}
+
+.actionbox {
+    padding: 50px;
+}
+
+.buttonbox {
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+    background-color: #3882F6;
+}
