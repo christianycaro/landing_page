@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    padding: 8px;
+    padding: 24px;
 }
 
 .header .logo {
@@ -36,44 +36,58 @@ body {
     list-style: none;
     font-size: 18px;
     color: #E5E7EB;
-    gap: 8px;
+    gap: 24px;
 }
 
 .introbox {
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    padding: 24px;
-    gap: 8px;
+    padding: 50px;
+    gap: 50px;
+    flex: 1;
 }
 
 .signup h1 {
     font-size: 48px;
     color: #E5E7EB;
     font-weight: 900;
+    padding-bottom: 16px;
 }
 
 .signup p {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 16px;
 }
 
 .signup button {
-   padding: 8px;
    background-color: #3882F6; 
    color: #E5E7EB;
    border-radius: 10px; 
+   width: 100px;
+   height: 30px;
 }
 
 .image {
-    height: 200px;
-    width: 500px;
+    display: flex;
+    height: 400px;
+    width: 400px;
 }
+
+.infobox {
+    padding-top: 24px;
+    padding-bottom: 100px;
+}
+
 .infobox h1 {
     text-align: center;
+    padding-bottom: 24px;
 }
 .infobox ul {
     list-style: none;
     display: flex;
+    gap: 50px;
 }
 
 .menu {
@@ -83,12 +97,14 @@ body {
 
 .menu li {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 .menu .menutext {
     text-align: center;
+    width: 150px;
 }
 
 .imagebox {
@@ -100,7 +116,7 @@ body {
 
 .quotebox {
     background-color: #E5E7EB;
-    padding: 32px;
+    padding: 100px;
 }
 
 .quotebox p {
@@ -108,13 +124,42 @@ body {
    color: #1F2937; 
 }
 
+.quotebox2 div {
+    text-align: right;
+    font-weight: bold;
+}
+
 .actionbox {
     padding: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .buttonbox {
     display: flex;
     padding: 16px;
+    border-radius: 10px;
     justify-content: space-around;
     background-color: #3882F6;
+    align-items: center;
+    color: #F9FAF8;
+    width: 75%;
 }
+
+.buttonbox button {
+    background-color: #3882F6; 
+   color: #E5E7EB;
+   border-radius: 10px;
+   width: 100px;
+   height: 30px;
+   border: 2px solid #F9FAF8;
+}
+
+footer {
+   background-color: #1F2937; 
+   color: #F9FAF8;
+   display: flex;
+   justify-content: center;
+   padding: 24px;
+}
+
