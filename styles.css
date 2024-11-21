@@ -15,19 +15,19 @@ body {
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
+    background-color: #5fff5f;
     padding: 24px;
 }
 
 .header .logo {
   font-size: 24px;
-  color: #F9FAF8; 
+  color: #338b33; 
   font-weight: bold; 
 }
 
@@ -39,10 +39,15 @@ body {
     gap: 24px;
 }
 
+.header li a {
+    text-decoration: none;
+    color: #399939;
+}
+
 .introbox {
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: #5fff5f;
     padding: 50px;
     gap: 50px;
     flex: 1;
@@ -50,20 +55,20 @@ body {
 
 .signup h1 {
     font-size: 48px;
-    color: #E5E7EB;
+    color: #338b33;
     font-weight: 900;
     padding-bottom: 16px;
 }
 
 .signup p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #338b33;
     padding-bottom: 16px;
 }
 
 .signup button {
-   background-color: #3882F6; 
-   color: #E5E7EB;
+   background-color: #161616; 
+   color: #5fff5f;
    border-radius: 10px; 
    width: 100px;
    height: 30px;
@@ -95,6 +100,12 @@ body {
     justify-content: center;
 }
 
+.menu img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
 .menu li {
     display: flex;
     flex-direction: column;
@@ -112,19 +123,24 @@ body {
     width: 150px;
     border-radius: 10px;
     border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quotebox {
-    background-color: #E5E7EB;
+    background-color: #161616;
     padding: 100px;
 }
 
 .quotebox p {
    font-size: 36px;
-   color: #1F2937; 
+   color: #5fff5f; 
+   padding-bottom: 24px;
 }
 
 .quotebox2 div {
+    color: #5fff5f;
     text-align: right;
     font-weight: bold;
 }
@@ -140,15 +156,15 @@ body {
     padding: 16px;
     border-radius: 10px;
     justify-content: space-around;
-    background-color: #3882F6;
+    background-color: #161616;
     align-items: center;
-    color: #F9FAF8;
+    color: #5fff5f;
     width: 75%;
 }
 
 .buttonbox button {
-    background-color: #3882F6; 
-   color: #E5E7EB;
+    background-color: #5fff5f; 
+   color: #161616;
    border-radius: 10px;
    width: 100px;
    height: 30px;
@@ -156,8 +172,8 @@ body {
 }
 
 footer {
-   background-color: #1F2937; 
-   color: #F9FAF8;
+   background-color: #5fff5f; 
+   color: #338b33;
    display: flex;
    justify-content: center;
    padding: 24px;
